@@ -3,7 +3,13 @@ body{
 	background-size: 500%;
 	animation: fanimado 10s infinite;
 	 font-family: 'Montserrat';font-size: 15px;
+
 }
+h1 {color: white;}
+h2 {color: white;}
+h3 {color: white;}
+h5 {color: white;}
+p {color: white;}
 .nav-item{
 	padding-right: 12px;
 	padding-left: 12px;

@@ -73,7 +73,7 @@ p {color: white;}
     transform: translate(-50%, -50%);
 }
 
-.reserva-central {margin:auto; padding-top: 50px;}
+.reserva-central {margin-left: 30px; margin-right: 30px; padding-top: 50px;}
 
 .combo {margin-left: auto;}
 

@@ -9,7 +9,7 @@ h1 {color: white;}
 h2 {color: white;}
 h3 {color: white;}
 h4 {color: white;}
-
+h5{color: black;}
 p {color: white;}
 
 
@@ -73,9 +73,9 @@ p {color: white;}
     transform: translate(-50%, -50%);
 }
 
-.reserva-central {padding-top: 50px;}
+.reserva-central {margin:auto; padding-top: 50px;}
 
-
+.combo {margin-left: auto;}
 
 .image-reserve{
 	opacity: 0.4;
@@ -99,9 +99,11 @@ p {color: white;}
 	height: 200px;
 }
 
-h5 {color: white;
-	font-size: 35px;}
-h6{color: white;font-size: 25px;}
+
+
+
+
+h6{color: white;font-size: 15px;}
 @keyframes fanimado {
 	0% { background-position: 0% 50%;}
 	50% {background-position: 100% 50%;}
@@ -121,7 +123,7 @@ h6{color: white;font-size: 25px;}
   }
 }
 
-.footer-area {padding-top: 50px; display: flex;justify-content: space-around;}
+.footer-area {margin-left: 50px;display: flex; flex-direction: column; padding-top: 50px; display: flex;justify-content: space-around;}
 
 .footer-logo .footer-info li {
   margin-top: 20px; }
@@ -148,9 +150,10 @@ h6{color: white;font-size: 25px;}
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
-
-
 		}
 
+.reserva-central {
+	margin-left: 50px;
+}
 
 ul {list-style-type: none;}
